@@ -20,12 +20,36 @@ export const SERVICES = [
 ];
 
 export const PORTFOLIO_ITEMS = [
-  { id: 1, alt: 'Modern residential architecture project' },
-  { id: 2, alt: 'Contemporary office building design' },
-  { id: 3, alt: 'Luxury interior design project' },
-  { id: 4, alt: 'Sustainable architecture concept' },
-  { id: 5, alt: 'Minimalist home design' },
-  { id: 6, alt: 'Commercial space renovation' }
+  { 
+    id: 1, 
+    alt: 'Modern residential architecture project',
+    image: '/WF/1.jpg'
+  },
+  { 
+    id: 2, 
+    alt: 'Contemporary office building design',
+    image: '/WF/2.webp'
+  },
+  { 
+    id: 3, 
+    alt: 'Luxury interior design project',
+    image: '/WF/3.jpg'
+  },
+  { 
+    id: 4, 
+    alt: 'Sustainable architecture concept',
+    image: '/WF/4.jpg'
+  },
+  { 
+    id: 5, 
+    alt: 'Minimalist home design',
+    image: '/WF/5.webp'
+  },
+  { 
+    id: 6, 
+    alt: 'Commercial space renovation',
+    image: '/WF/6.webp'
+  }
 ];
 
 export const NAVIGATION_ITEMS = [

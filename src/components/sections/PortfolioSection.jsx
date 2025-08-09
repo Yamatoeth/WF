@@ -26,9 +26,9 @@ export default function PortfolioSection() {
               className="group cursor-pointer"
             >
               <img 
-                src={`https://source.unsplash.com/600x400/?architecture,design,${item.id}`} 
+                src={item.image}
                 alt={item.alt}
-                className="rounded-lg shadow-lg w-full h-64 object-cover group-hover:shadow-xl transition-shadow duration-300"
+                className="rounded-lg shadow-lg w-full h-64 object-cover group-hover:shadow-xl transition-all duration-300 group-hover:scale-105"
                 loading="lazy"
               />
               <figcaption className="sr-only">{item.alt}</figcaption>
