@@ -3,12 +3,16 @@
 ## 📋 Description
 Site web pour WF Design - Agence d'architecture et de construction spécialisée dans la conception d'espaces modernes et fonctionnels.
 
+## 🌐 Demo Live
+**🚀 Site déployé :** [https://yamatoeth.github.io/WF/](https://yamatoeth.github.io/WF/)
+
 ## 🚀 Technologies utilisées
 - **React 18** - Framework JavaScript
 - **Vite** - Outil de build rapide
 - **Tailwind CSS** - Framework CSS utilitaire
 - **Framer Motion** - Animations et transitions
 - **ESLint** - Linting du code
+- **GitHub Pages** - Déploiement automatique
 
 ## 📁 Structure du projet
 ```
@@ -46,6 +50,10 @@ wf-design/
 
 ### Installation
 ```bash
+# Cloner le projet
+git clone https://github.com/Yamatoeth/WF.git
+cd WF
+
 # Installer les dépendances
 npm install
 
@@ -58,6 +66,24 @@ npm run build
 # Prévisualiser la version de production
 npm run preview
 ```
+
+## 🚀 Déploiement
+
+### Déploiement automatique avec GitHub Pages
+Le site est automatiquement déployé sur GitHub Pages à chaque push sur la branche `main`.
+
+**URL de production :** [https://yamatoeth.github.io/WF/](https://yamatoeth.github.io/WF/)
+
+### Déploiement manuel
+```bash
+# Construire et déployer manuellement
+npm run deploy
+```
+
+### Configuration GitHub Pages
+1. Le déploiement se fait via GitHub Actions (`.github/workflows/deploy.yml`)
+2. Les fichiers sont buildés automatiquement avec Vite
+3. Le site est servi depuis la branche `gh-pages`
 
 ## ✨ Fonctionnalités
 - ✅ Design responsive (mobile-first)
